@@ -628,7 +628,7 @@ Blowfish_cbc_stop (struct blf_cbc_ctx *c)
 
 void printUsage()
 {
-   printf("DecryptArcTool\nUsage:\n\tdecryptArcTool <archive> <output Archive>\n");
+   printf("DecryptArcTool\nUsage:\n\tdecryptArcTool create/extract/dump <archive> <output archive> <input files>\n");
 }
 
 #pragma pack(1)
