@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		329BC0AC19CF0E74006F0596 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 329BC0AB19CF0E74006F0596 /* main.cpp */; };
+		329BC0BB19CF3141006F0596 /* PVRTDecompress.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 329BC0B619CF3141006F0596 /* PVRTDecompress.cpp */; };
+		329BC0BC19CF3141006F0596 /* PVRTTexture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 329BC0B919CF3141006F0596 /* PVRTTexture.cpp */; };
+		32BB7EE119F184C6000C268D /* image_DXT.c in Sources */ = {isa = PBXBuildFile; fileRef = 32BB7ED319F184C6000C268D /* image_DXT.c */; };
+		32BB7EE219F184C6000C268D /* image_helper.c in Sources */ = {isa = PBXBuildFile; fileRef = 32BB7ED519F184C6000C268D /* image_helper.c */; };
+		32BB7EE619F184C6000C268D /* stb_image_aug.c in Sources */ = {isa = PBXBuildFile; fileRef = 32BB7EDC19F184C6000C268D /* stb_image_aug.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		329BC0A619CF0E73006F0596 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		329BC0A819CF0E74006F0596 /* texTool */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = texTool; sourceTree = BUILT_PRODUCTS_DIR; };
+		329BC0AB19CF0E74006F0596 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		329BC0B319CF1389006F0596 /* TemplateIcon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon2x.png; sourceTree = "<group>"; };
+		329BC0B619CF3141006F0596 /* PVRTDecompress.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PVRTDecompress.cpp; sourceTree = "<group>"; };
+		329BC0B719CF3141006F0596 /* PVRTDecompress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRTDecompress.h; sourceTree = "<group>"; };
+		329BC0B819CF3141006F0596 /* PVRTGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRTGlobal.h; sourceTree = "<group>"; };
+		329BC0B919CF3141006F0596 /* PVRTTexture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PVRTTexture.cpp; sourceTree = "<group>"; };
+		329BC0BA19CF3141006F0596 /* PVRTTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PVRTTexture.h; sourceTree = "<group>"; };
+		32BB7ED319F184C6000C268D /* image_DXT.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = image_DXT.c; sourceTree = "<group>"; };
+		32BB7ED419F184C6000C268D /* image_DXT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = image_DXT.h; sourceTree = "<group>"; };
+		32BB7ED519F184C6000C268D /* image_helper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = image_helper.c; sourceTree = "<group>"; };
+		32BB7ED619F184C6000C268D /* image_helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = image_helper.h; sourceTree = "<group>"; };
+		32BB7EDC19F184C6000C268D /* stb_image_aug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stb_image_aug.c; sourceTree = "<group>"; };
+		32BB7EDD19F184C6000C268D /* stb_image_aug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_image_aug.h; sourceTree = "<group>"; };
+		32BB7EDE19F184C6000C268D /* stbi_DDS_aug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stbi_DDS_aug.h; sourceTree = "<group>"; };
+		32BB7EDF19F184C6000C268D /* stbi_DDS_aug_c.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stbi_DDS_aug_c.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		329BC0A519CF0E73006F0596 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		329BC09F19CF0E73006F0596 = {
+			isa = PBXGroup;
+			children = (
+				329BC0AA19CF0E74006F0596 /* texTool */,
+				329BC0A919CF0E74006F0596 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		329BC0A919CF0E74006F0596 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				329BC0A819CF0E74006F0596 /* texTool */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		329BC0AA19CF0E74006F0596 /* texTool */ = {
+			isa = PBXGroup;
+			children = (
+				32BB7ED219F184C6000C268D /* soil */,
+				329BC0B519CF3141006F0596 /* pvrtc */,
+				329BC0AB19CF0E74006F0596 /* main.cpp */,
+				329BC0B319CF1389006F0596 /* TemplateIcon2x.png */,
+			);
+			path = texTool;
+			sourceTree = "<group>";
+		};
+		329BC0B519CF3141006F0596 /* pvrtc */ = {
+			isa = PBXGroup;
+			children = (
+				329BC0B619CF3141006F0596 /* PVRTDecompress.cpp */,
+				329BC0B719CF3141006F0596 /* PVRTDecompress.h */,
+				329BC0B819CF3141006F0596 /* PVRTGlobal.h */,
+				329BC0B919CF3141006F0596 /* PVRTTexture.cpp */,
+				329BC0BA19CF3141006F0596 /* PVRTTexture.h */,
+			);
+			path = pvrtc;
+			sourceTree = SOURCE_ROOT;
+		};
+		32BB7ED219F184C6000C268D /* soil */ = {
+			isa = PBXGroup;
+			children = (
+				32BB7ED319F184C6000C268D /* image_DXT.c */,
+				32BB7ED419F184C6000C268D /* image_DXT.h */,
+				32BB7ED519F184C6000C268D /* image_helper.c */,
+				32BB7ED619F184C6000C268D /* image_helper.h */,
+				32BB7EDC19F184C6000C268D /* stb_image_aug.c */,
+				32BB7EDD19F184C6000C268D /* stb_image_aug.h */,
+				32BB7EDE19F184C6000C268D /* stbi_DDS_aug.h */,
+				32BB7EDF19F184C6000C268D /* stbi_DDS_aug_c.h */,
+			);
+			path = soil;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		329BC0A719CF0E73006F0596 /* texTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 329BC0AF19CF0E74006F0596 /* Build configuration list for PBXNativeTarget "texTool" */;
+			buildPhases = (
+				329BC0A419CF0E73006F0596 /* Sources */,
+				329BC0A519CF0E73006F0596 /* Frameworks */,
+				329BC0A619CF0E73006F0596 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = texTool;
+			productName = texTool;
+			productReference = 329BC0A819CF0E74006F0596 /* texTool */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		329BC0A019CF0E73006F0596 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				TargetAttributes = {
+					329BC0A719CF0E73006F0596 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = 329BC0A319CF0E73006F0596 /* Build configuration list for PBXProject "texTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 329BC09F19CF0E73006F0596;
+			productRefGroup = 329BC0A919CF0E74006F0596 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				329BC0A719CF0E73006F0596 /* texTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		329BC0A419CF0E73006F0596 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				329BC0BC19CF3141006F0596 /* PVRTTexture.cpp in Sources */,
+				329BC0BB19CF3141006F0596 /* PVRTDecompress.cpp in Sources */,
+				32BB7EE219F184C6000C268D /* image_helper.c in Sources */,
+				32BB7EE119F184C6000C268D /* image_DXT.c in Sources */,
+				32BB7EE619F184C6000C268D /* stb_image_aug.c in Sources */,
+				329BC0AC19CF0E74006F0596 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		329BC0AD19CF0E74006F0596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		329BC0AE19CF0E74006F0596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		329BC0B019CF0E74006F0596 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		329BC0B119CF0E74006F0596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		329BC0A319CF0E73006F0596 /* Build configuration list for PBXProject "texTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				329BC0AD19CF0E74006F0596 /* Debug */,
+				329BC0AE19CF0E74006F0596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		329BC0AF19CF0E74006F0596 /* Build configuration list for PBXNativeTarget "texTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				329BC0B019CF0E74006F0596 /* Debug */,
+				329BC0B119CF0E74006F0596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 329BC0A019CF0E73006F0596 /* Project object */;
+}
